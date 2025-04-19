@@ -17,7 +17,7 @@ Hi, this is Qingming. So sorry for the late release. I’m currently very busy(f
 - Create the Conda virtual environment using the command below (Python and PyTorch versions higher than the specified ones should work fine):
 ```bash
 conda create -n MoDGS python=3.7
-
+conda activate MoDGS
 pip install torch==1.13.1+cu116 torchvision==0.14.1+cu116 --extra-index-url https://download.pytorch.org/whl/cu116
 ```
 
